@@ -3,19 +3,26 @@ import React from "react";
 import { FiHeart } from "react-icons/fi";
 import { AiOutlineShopping } from "react-icons/ai";
 
+const navLinks: string[] = ["New & Featured", "Men", "Women", "Kids", "SNKRS"];
+
 const Navbar = () => {
   return (
     <div className="px-8 py-4 flex justify-between items-center">
       <Link href="#" className="font-bold text-2xl">
         Logo
       </Link>
-      <div className="hidden sm:block">
-        <div className="flex gap-6">
-          <Link href="#">New & Featured</Link>
-          <Link href="#">Men</Link>
-          <Link href="#">Women</Link>
-          <Link href="#">Kids</Link>
-          <Link href="#">SNKRS</Link>
+      <div className="hidden md:block">
+        <div className="flex gap-4 md:gap-6 text-sm">
+          {navLinks?.map((link) => {
+            return (
+              <Link
+                href="#"
+                className="relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left"
+              >
+                {link}
+              </Link>
+            );
+          })}
         </div>
       </div>
       <div className="text-[30px] flex gap-4">
