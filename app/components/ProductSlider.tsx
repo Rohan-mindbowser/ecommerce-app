@@ -43,6 +43,11 @@ const ProductSlider = () => {
           style={{ width: "100%", height: "auto" }} // optional
           alt="home image"
         />
+        <div className="flex justify-between mt-2">
+          <h1>Nike Revolution 6 FlyEase</h1>
+          <span>₹ 3 695</span>
+        </div>
+        <h1 className="text-gray-500">Men's Easy On/Off Road Running Shoes</h1>
       </div>
       <div className="w-full px-2">
         <Image
@@ -53,6 +58,11 @@ const ProductSlider = () => {
           style={{ width: "100%", height: "auto" }} // optional
           alt="home image"
         />
+        <div className="flex justify-between mt-2">
+          <h1>Nike Revolution 6 FlyEase</h1>
+          <span>₹ 3 695</span>
+        </div>
+        <h1 className="text-gray-500">Men's Easy On/Off Road Running Shoes</h1>
       </div>
       <div className="w-full px-2">
         <Image
@@ -63,6 +73,11 @@ const ProductSlider = () => {
           style={{ width: "100%", height: "auto" }} // optional
           alt="home image"
         />
+        <div className="flex justify-between mt-2">
+          <h1>Nike Revolution 6 FlyEase</h1>
+          <span>₹ 3 695</span>
+        </div>
+        <h1 className="text-gray-500">Men's Easy On/Off Road Running Shoes</h1>
       </div>
       <div className="w-full px-2">
         <Image
@@ -73,6 +88,11 @@ const ProductSlider = () => {
           style={{ width: "100%", height: "auto" }} // optional
           alt="home image"
         />
+        <div className="flex justify-between mt-2">
+          <h1>Nike Revolution 6 FlyEase</h1>
+          <span>₹ 3 695</span>
+        </div>
+        <h1 className="text-gray-500">Men's Easy On/Off Road Running Shoes</h1>
       </div>
       <div className="w-full px-2">
         <Image
@@ -83,6 +103,11 @@ const ProductSlider = () => {
           style={{ width: "100%", height: "auto" }} // optional
           alt="home image"
         />
+        <div className="flex justify-between mt-2">
+          <h1>Nike Revolution 6 FlyEase</h1>
+          <span>₹ 3 695</span>
+        </div>
+        <h1 className="text-gray-500">Men's Easy On/Off Road Running Shoes</h1>
       </div>
     </Carousel>
   );
