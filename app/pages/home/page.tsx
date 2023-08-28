@@ -17,6 +17,7 @@ const page = () => {
         alt="home image"
       />
       <Midbar />
+      <ProductSlider />
       <Essentials />
     </div>
   );
