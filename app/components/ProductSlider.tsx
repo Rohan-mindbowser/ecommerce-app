@@ -33,6 +33,7 @@ const ProductSlider = () => {
       autoPlay={true}
       autoPlaySpeed={5000}
       infinite={true}
+      className="mb-12"
     >
       <div className="w-full px-2">
         <Image

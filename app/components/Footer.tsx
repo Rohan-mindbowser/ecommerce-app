@@ -89,22 +89,22 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex gap-4">
-          <div className="rounded-full bg-gray-600 h-8 w-8 flex justify-center items-center">
+          <div className="rounded-full bg-gray-600 h-8 w-16 flex justify-center items-center">
             <Link href="#">
               <FaFacebookF className="text-xl text-black" />
             </Link>
           </div>
-          <div className="rounded-full bg-gray-600 h-8 w-8 flex justify-center items-center">
+          <div className="rounded-full bg-gray-600 h-8 w-16 flex justify-center items-center">
             <Link href="#">
               <BsTwitter className="text-xl text-black" />
             </Link>
           </div>{" "}
-          <div className="rounded-full bg-gray-600 h-8 w-8 flex justify-center items-center">
+          <div className="rounded-full bg-gray-600 h-8 w-16 flex justify-center items-center">
             <Link href="#">
               <AiFillInstagram className="text-xl text-black" />
             </Link>
           </div>{" "}
-          <div className="rounded-full bg-gray-600 h-8 w-8 flex justify-center items-center">
+          <div className="rounded-full bg-gray-600 h-8 w-16 flex justify-center items-center">
             <Link href="#">
               <AiFillYoutube className="text-xl text-black" />
             </Link>
