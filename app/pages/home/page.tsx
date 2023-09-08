@@ -2,6 +2,7 @@
 import Essentials from "@/app/components/Essentials";
 import Midbar from "@/app/components/Midbar";
 import ProductSlider from "@/app/components/ProductSlider";
+import Trending from "@/app/components/Trending";
 import Image from "next/image";
 import React from "react";
 
@@ -18,6 +19,7 @@ const page = () => {
       />
       <Midbar />
       <ProductSlider />
+      <Trending />
       <Essentials />
     </div>
   );

@@ -11,7 +11,7 @@ const Navbar = () => {
       <Link href="#" className="font-bold sm:text-xl">
         SneakerCentral
       </Link>
-      <div className="hidden md:block">
+      <div className="hidden xl:block">
         <div className="flex gap-4 md:gap-6 text-md">
           {navLinks?.map((link) => {
             return (
