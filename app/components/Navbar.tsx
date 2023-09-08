@@ -8,7 +8,7 @@ const navLinks: string[] = ["New & Featured", "Men", "Women", "Kids", "SNKRS"];
 const Navbar = () => {
   return (
     <div className="p-2 sm:px-8 py-4 flex justify-between items-center">
-      <Link href="#" className="font-bold sm:text-xl">
+      <Link href="/" className="font-bold sm:text-xl">
         SneakerCentral
       </Link>
       <div className="hidden xl:block">

@@ -43,7 +43,7 @@ const ProductSlider = () => {
             width={0}
             height={0}
             sizes="100vw"
-            style={{ width: "100%", height: "auto" }} // optional
+            style={{ width: "100%", height: "500px", objectFit: "cover" }} // optional
             alt="home image"
           />
           <div className="flex justify-between mt-2">
@@ -62,7 +62,7 @@ const ProductSlider = () => {
             width={0}
             height={0}
             sizes="100vw"
-            style={{ width: "100%", height: "auto" }} // optional
+            style={{ width: "100%", height: "500px", objectFit: "cover" }} // optional
             alt="home image"
           />
           <div className="flex justify-between mt-2">
@@ -81,7 +81,7 @@ const ProductSlider = () => {
             width={0}
             height={0}
             sizes="100vw"
-            style={{ width: "100%", height: "auto" }} // optional
+            style={{ width: "100%", height: "500px", objectFit: "cover" }} // optional
             alt="home image"
           />
           <div className="flex justify-between mt-2">
@@ -100,7 +100,7 @@ const ProductSlider = () => {
             width={0}
             height={0}
             sizes="100vw"
-            style={{ width: "100%", height: "auto" }} // optional
+            style={{ width: "100%", height: "500px", objectFit: "cover" }} // optional
             alt="home image"
           />
           <div className="flex justify-between mt-2">
@@ -119,7 +119,7 @@ const ProductSlider = () => {
             width={0}
             height={0}
             sizes="100vw"
-            style={{ width: "100%", height: "auto" }} // optional
+            style={{ width: "100%", height: "500px", objectFit: "cover" }} // optional
             alt="home image"
           />
           <div className="flex justify-between mt-2">
